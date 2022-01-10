@@ -1,0 +1,20 @@
+/* This is head file
+ * @version c++17
+ */
+#pragma once
+#include "stk"
+// Namespace
+
+#define CCT_BEGIN   namespace cct {
+#define CCT_END     }
+
+// Symbol priority
+#define PRI_ADD     0x0000
+#define PRI_SUB     PRI_ADD
+#define PRI_MUL     0x0001
+#define PRI_DIV     PRI_MUL
+#define PRI_POW     0x0002
+
+// Include
+
+#include "cct.hpp"

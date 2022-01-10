@@ -1,0 +1,6 @@
+#pragma once
+
+#define STK_BEGIN   namespace stk{
+#define STK_END     }
+
+#include "stk.hpp"
